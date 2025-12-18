@@ -222,7 +222,7 @@ python main.py
 
 ## Collaborator
 
-<i>Special thanks to <a href="https://github.com/Vital-98">Vedant Chavan (Vital-98)</a> for helping create this project.</i>
+<i>Special thanks to <a href="https://github.com/Vital-98">Vital-98</a> for helping create this project.</i>
 
 
 ## Resources
