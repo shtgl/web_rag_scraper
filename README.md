@@ -126,7 +126,7 @@ ollama create gemma-3n -f /root/.ollama/models/Modelfile
 
 9. Congratulations! You have successfully completed the setup of Local LLM model by containerizing it in the Docker.
 
-10. You can experiment it with other local modals as well under Ollama models list. In below, check which commands to use to access them.
+10. (Optional) You can experiment it with other local modals as well under Ollama models list. In below, check which commands to use to access them.
 ```bash
 ## No file download is needed for getting the model
 ## The model can be directly pulled from Ollama's model list
