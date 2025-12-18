@@ -220,6 +220,9 @@ python main.py
 </li>
 </ul>
 
+## Collaborator
+
+<i>Special thanks to <a href="https://github.com/Vital-98">Vedant Chavan (Vital-98)</a> for helping create this project.</i>
 
 
 ## Resources
