@@ -1,0 +1,49 @@
+2025-12-18 10:43:32,222 - INFO - Pipeline started
+2025-12-18 10:43:32,222 - INFO - User query: Who is Narendra Modi?
+2025-12-18 10:43:40,160 - INFO - Initialized local LLM: gemma-3n
+2025-12-18 10:43:40,160 - INFO - ============================================================
+2025-12-18 10:43:40,160 - INFO - STAGE: WEB SCRAPING
+2025-12-18 10:43:40,160 - INFO - ============================================================
+2025-12-18 10:43:44,264 - INFO - Collected 10 URLs
+2025-12-18 10:43:44,264 - INFO - URLs collected: 10
+2025-12-18 10:43:44,264 - DEBUG - URLs:
+1. URL: https://en.wikipedia.org/wiki/Narendra_Modi
+2. URL: https://www.pmindia.gov.in/
+3. URL: https://www.outlookbusiness.com/news/pm-modis-75th-birthday-inside-narendra-modis-monthly-salary-breakdown-read-here
+4. URL: https://en.wikipedia.org/wiki/Jashodaben_Modi
+5. URL: https://www.indianlink.com.au/178939-2-narendra-modis-salary-compared-to-other-world-leaders-pm-salaries/
+6. URL: https://www.wionews.com/photos/what-are-the-salaries-of-indian-pm-president-vice-president-and-mps-heres-the-full-breakdown-1753347103536
+7. URL: https://www.google.co.in/intl/en/about/products?tab=wh
+8. URL: https://en.wikipedia.org/wiki/7,_Lok_Kalyan_Marg
+9. URL: https://en.wikipedia.org/wiki/PM_Narendra_Modi
+10. URL: https://en.wikipedia.org/wiki/Modi_(disambiguation)
+
+2025-12-18 10:43:44,266 - INFO - ============================================================
+2025-12-18 10:43:44,266 - INFO - STAGE: CONTENT PARSING
+2025-12-18 10:43:44,266 - INFO - ============================================================
+2025-12-18 10:43:44,266 - INFO - Fetching content from: https://en.wikipedia.org/wiki/Narendra_Modi
+2025-12-18 10:43:46,261 - DEBUG - URL 1: 4 chunks
+2025-12-18 10:43:46,261 - INFO - Fetching content from: https://www.pmindia.gov.in/
+2025-12-18 10:43:46,821 - DEBUG - URL 2: 2 chunks
+2025-12-18 10:43:46,821 - INFO - Fetching content from: https://www.outlookbusiness.com/news/pm-modis-75th-birthday-inside-narendra-modis-monthly-salary-breakdown-read-here
+2025-12-18 10:43:48,046 - DEBUG - URL 3: 3 chunks
+2025-12-18 10:43:48,046 - INFO - Fetching content from: https://en.wikipedia.org/wiki/Jashodaben_Modi
+2025-12-18 10:43:49,020 - DEBUG - URL 4: 5 chunks
+2025-12-18 10:43:49,020 - INFO - Fetching content from: https://www.indianlink.com.au/178939-2-narendra-modis-salary-compared-to-other-world-leaders-pm-salaries/
+2025-12-18 10:43:52,231 - DEBUG - URL 5: 2 chunks
+2025-12-18 10:43:52,231 - INFO - ============================================================
+2025-12-18 10:43:52,231 - INFO - STAGE: EMBEDDING & RANKING
+2025-12-18 10:43:52,231 - INFO - ============================================================
+2025-12-18 10:43:53,253 - DEBUG - Chunk 1 | Score=0.615 | Source=https://www.outlookbusiness.com/news/pm-modis-75th-birthday-inside-narendra-modis-monthly-salary-breakdown-read-here
+2025-12-18 10:43:53,253 - DEBUG - Chunk 2 | Score=0.551 | Source=https://en.wikipedia.org/wiki/Narendra_Modi
+2025-12-18 10:43:53,253 - DEBUG - Chunk 3 | Score=0.547 | Source=https://en.wikipedia.org/wiki/Jashodaben_Modi
+2025-12-18 10:43:53,253 - INFO - ============================================================
+2025-12-18 10:43:53,254 - INFO - STAGE: RESPONSE GENERATION
+2025-12-18 10:43:53,254 - INFO - ============================================================
+2025-12-18 10:43:53,254 - INFO - Generating answer with local LLM
+2025-12-18 10:49:38,628 - INFO - LLM response generated successfully
+2025-12-18 10:49:38,628 - INFO - ============================================================
+2025-12-18 10:49:38,628 - INFO - STAGE: FINAL ANSWER
+2025-12-18 10:49:38,628 - INFO - ============================================================
+2025-12-18 10:49:38,628 - INFO - Answer generated successfully
+2025-12-18 10:49:40,834 - INFO - Pipeline finished

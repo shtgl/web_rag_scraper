@@ -1,0 +1,13 @@
+FROM /root/.ollama/models/gemma-3n-E4B-it-Q4_K_M.gguf
+
+SYSTEM """You are a precise, citation-focused AI assistant.
+You must answer strictly from the provided context.
+If information is missing, say so clearly."""
+
+TEMPLATE """{{ .System }}
+
+{{ .Prompt }}"""
+
+PARAMETER temperature 0.2
+PARAMETER top_p 0.9
+PARAMETER num_ctx 4096
