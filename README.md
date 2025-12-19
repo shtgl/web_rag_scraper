@@ -50,7 +50,7 @@ pip install -r requirements.txt
 1. Activate <i>Virtual Machine Platform</i> and <i>Windows Subsystem for Linux</i> feature by searching for <i>Windows Features on of off</i>.
 
 <div align='center'>
-<img src="img/1.png"; width=920> 
+<img src="img/1.png"; width=460> 
 </div>
 
 2. Above step is applicable only for Windows PC to activate WSL. Since, Docker requires Linux environment to run containers, we'll also need to install a Linux distribution along side the WSL.
