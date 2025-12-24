@@ -126,11 +126,11 @@ cd models
 </div>
 
 <div>
-4. After the directory points to <i>models</i>, make sure it has the file extension of <i>.gguf</i>.
+4. Make sure it has the file extension of <i>.gguf</i>.
 </div><br>
 
 <div>
-5. Copy the gemma model to the docker ollama container. <i>Note - Please enter the name of container that you had created with for ollama image.</i>
+5. Copy the gemma model to the docker ollama container using below command. <i>Note - Please enter the name of container that you had created with for ollama image.</i>
 
 ```bash
 docker cp gemma-3n-E4B-it-Q4_K_M.gguf your_container_name:/root/.ollama/models/
@@ -138,7 +138,7 @@ docker cp gemma-3n-E4B-it-Q4_K_M.gguf your_container_name:/root/.ollama/models/
 </div>
 
 <div>
-6. Copy the Modelfile for running the model in ollama container -
+6. Copy the Modelfile for running the model in ollama container using below command -
 
 ```bash
 docker cp Modelfile your_container_name:/root/.ollama/models
@@ -166,7 +166,7 @@ ollama create gemma-3n -f /root/.ollama/models/Modelfile
 </div><br>
 
 <div>
-10. (Optional) You can experiment it with other local modals as well under Ollama models list. In below, check which commands to use to access them.
+10. (Optional) You can experiment it with other local models as well under Ollama models list. In below, check which commands to use to access them.
 
 ```bash
 ## No file download is needed for getting the model
