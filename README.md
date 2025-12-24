@@ -60,7 +60,7 @@ pip install -r requirements.txt
 </div>
 
 <div>
-1. Activate <i>Virtual Machine Platform</i> and <i>Windows Subsystem for Linux</i> feature by searching for <i>Windows Features on or off</i>.  <img src="img/1.png">
+1. Activate <i>Virtual Machine Platform</i> and <i>Windows Subsystem for Linux</i> feature by searching for <i>Windows Features on or off</i>.  <br><img src="img/1.png">
 </div><br>
 
 <div>
